@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "slugify": "^1.6.3"
+  },
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "node-farms",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node http.js",
+    "dev":"nodemon http.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
